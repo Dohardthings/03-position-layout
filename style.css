@@ -11,5 +11,18 @@ body {
   margin: 0;
 }
 .header {
+background: #1ca719;
+
+}
+.top-image {
+width: 100%;
+height: 15rem;
+}
+.top-logo {
+  border-radius: 50%;
+  margin: 1rem;
+  border: 3px solid white;
+  position: absolute;
+  top: 45%;
 
 }
