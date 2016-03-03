@@ -72,9 +72,13 @@ p {
   width: 28%;
   color: white;
   background: #6698e3;
+  position: relative;
+  top: .2rem;
 }
 .never-miss {
-  border: .0625rem solid lightgrey;
+  border-top: .0625rem solid lightgrey;
+  border-left: .0625rem solid lightgrey;
+  border-right: .0625rem solid lightgrey;
   padding: .5rem;
   margin-bottom: 0;
   display: inline-block;
