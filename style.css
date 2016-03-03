@@ -23,14 +23,14 @@ height: 15rem;
 .top-logo {
   border-radius: 50%;
   margin: 1rem;
-  border: 3px solid white;
+  border: .1875rem solid white;
   position: absolute;
   top: 70%;
 
 }
 main {
 width: 100%;
-
+color: #989792;
   display: inline-block;
 }
 .side-bar {
@@ -43,20 +43,30 @@ width: 100%;
 }
 .main-article {
   background: white;
-
+  margin: 1rem;
   width: 50%;
   float: left;
 }
 .app-content {
   background: white;
-
+  font-size: .5rem;
   float: left;
-  width: 25%;
+  width: 21%;
   margin-top: 16.35rem;
+  border: 1px solid lightgrey;
 }
 .iy-text {
 border-right: 1px solid darkgrey;
 }
 .bottom-image {
-  width: 100%;
+  width: 84%;
+}
+p {
+  margin: 0;
+}
+.button {
+  float: right;
+  width: 28%;
+  color: ;
+  background: #6698e3;
 }
