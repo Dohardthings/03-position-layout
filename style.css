@@ -62,19 +62,30 @@ border-right: .0625rem solid darkgrey;
   width: 84%;
 }
 p {
+  vertical-align: middle;
   margin: 0;
 }
 .button {
+  font-size: .5rem;
+  vertical-align: middle;
   float: right;
   width: 28%;
-  color: ;
+  color: white;
   background: #6698e3;
 }
 .never-miss {
   border: .0625rem solid lightgrey;
   padding: .5rem;
   margin-bottom: 0;
+  display: inline-block;
+  width: 100%;
 }
 .app-content__container {
   border: .0625rem solid lightgrey;
+}
+.avatar {
+  vertical-align: middle;
+}
+.never-miss__x {
+  float: right;
 }
